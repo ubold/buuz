@@ -140,6 +140,7 @@ Composer::Composer()
     addRule("A"   , "А" , x_m | x_f | x_mm | x_ac);
     addRule("AI"  , "АЙ", x_m | x_f | x_mm | x_ac);
     addRule("B"   , "Б" , x_m | x_f |    0 | x_ac);
+    addRule("TS"   , "Ц" , x_m | x_f |    0 | x_ac);
     addRule("C"   , "Ц" , x_m | x_f |    0 | x_ac);
     addRule("CH"  , "Ч" , x_m | x_f |    0 | x_ac);
     addRule("D"   , "Д" , x_m | x_f |    0 | x_ac);
@@ -206,10 +207,10 @@ Composer::Composer()
     addRule("YU"  , "Ю" , x_m | x_f | x_mm | x_ac);
     addRule("Z"   , "З" , x_m | x_f |    0 | x_ac);
 
-    addRule("\""  , "ъ" , x_m | x_f |    0 |    0);
-    addRule("\"\"", "Ъ" , x_m | x_f |    0 |    0);
-    addRule("'"   , "ь" , x_m | x_f |    0 |    0);
-    addRule("''"  , "Ь" , x_m | x_f |    0 |    0);
+    addRule("]"  , "ъ" , x_m | x_f |    0 |    0);
+    addRule("}", "Ъ" , x_m | x_f |    0 |    0);
+    addRule("["   , "ь" , x_m | x_f |    0 |    0);
+    addRule("{"  , "Ь" , x_m | x_f |    0 |    0);
 
     computeRuleLengths();
 
