@@ -32,3 +32,15 @@ Version History:
   2011-04-20 Version 0.9.6
     - Changed the license to "Apache License 2.0"
     - Minimum required Windows version is now Windows XP
+
+
+А  - A            ИЙ - II           Т  - T            ъ  - "
+Б  - B            К  - K            У  - U, "U        Ы  - Y, III
+В  - V            Л  - L            Ү  - U, W, 'U     Ь  - ''
+Г  - G            М  - M            Ф  - F            ь  - '
+Д  - D            Н  - N            Х  - H, KH, X     Э  - E
+Е  - YE           О  - O, "O        Ц  - C            Ю  - YU
+Ё  - YO           Ө  - O, Q, 'O     Ч  - CH           Я  - YA
+Ж  - J            П  - P            Ш  - SH
+З  - Z            Р  - R            Щ  - SXC
+И  - I            С  - S            Ъ  - ""
